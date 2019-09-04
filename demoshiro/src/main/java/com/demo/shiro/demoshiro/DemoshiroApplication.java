@@ -1,0 +1,15 @@
+package com.demo.shiro.demoshiro;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+//@EnableDiscoveryClient
+public class DemoshiroApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DemoshiroApplication.class, args);
+    }
+
+}
